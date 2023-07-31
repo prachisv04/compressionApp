@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="engg.project.appcompress.MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="275dp"
+        android:layout_height="34dp"
+        android:text="TextView"
+        android:visibility="visible"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="23dp"
+        tools:text="Menu" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:text="Compress image"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="151dp"
+        android:layout_height="81dp"
+        android:text="compress video"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="145dp"
+        android:layout_height="80dp"
+        android:text="show image after compression"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="137dp"
+        android:layout_height="76dp"
+        android:text="show video after compression"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="engg.project.appcompress.videocompare">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="117dp"
+        android:layout_height="122dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="28dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="127dp"
+        android:layout_height="39dp"
+        android:autoSizeMaxTextSize="@android:dimen/app_icon_size"
+        android:text="original size:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="161dp"
+        android:layout_height="39dp"
+        android:text="size after compression"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="134dp"
+        android:layout_height="36dp"
+        android:text="size difference"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="337dp" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="123dp"
+        android:layout_height="66dp"
+        android:text="save compressed"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="117dp"
+        android:layout_height="64dp"
+        android:text="save both"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="394dp" />
+</android.support.constraint.ConstraintLayout>
